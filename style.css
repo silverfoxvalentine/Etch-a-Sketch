@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container div {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+button {
+    margin: 20px;
+}
